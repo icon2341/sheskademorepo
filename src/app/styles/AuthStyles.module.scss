@@ -1,0 +1,42 @@
+.pageContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #FEFEFE;
+  height: 100vh;
+  width: 100vw;
+}
+
+.formSection {
+  width: 40vw;
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.peopleHavingFun {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .presentationContainer {
+    display: none;
+  }
+
+  .formSection {
+    width: 100vw;
+    min-width: auto;
+  }
+
+  .mainImageContainer {
+    display: none;
+  }
+
+  .pageContainer {
+    justify-content: center;
+  }
+
+}

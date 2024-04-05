@@ -1,0 +1,10 @@
+.shiny {
+	background: linear-gradient(90deg, rgba(35, 70, 90, 0.31), rgba(255,255,255,0.8) 50%, rgba(35, 70, 90, 0.31) 100%);
+	background-size: 200% 100%;
+	animation: shiny 2s linear infinite;
+}
+
+@keyframes shiny {
+	0% { background-position: -200% 0; }
+	100% { background-position: 200% 0; }
+}
